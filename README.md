@@ -13,4 +13,4 @@ You should have asdf setup and postgres running locally.
 3. `mix ecto.create`
 4. `mix ecto.migrate`
 
-To verify that setup completed successfully, run `iex -S mix` and then run `DW.Repo.all(Dw.Employee)`. If you see an output of a list of employees, your app is set up correctly.
+To verify that setup completed successfully, run `iex -S mix` and then run `DW.Repo.all(DW.Employee)`. If you see an output of a list of employees, your app is set up correctly.
