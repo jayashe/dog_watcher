@@ -8,4 +8,8 @@ defmodule DW.Dog do
 
     timestamps()
   end
+
+  def changeset(model, params) do
+    Ecto.Changeset.cast(model, params, [:breed])
+  end
 end
